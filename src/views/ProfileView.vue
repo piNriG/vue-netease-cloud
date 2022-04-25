@@ -1,5 +1,5 @@
 <template>
-    <h2>Profile</h2>
+    <h1>我的</h1>
 </template>
 
 <script>

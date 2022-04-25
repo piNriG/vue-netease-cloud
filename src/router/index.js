@@ -1,17 +1,18 @@
 import {createRouter, createWebHashHistory} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
-const LoginView = () => import('../views/LoginView')
-const ProfileView = () => import('../views/ProfileView')
+const LoginView = () => import ('../views/LoginView')
+const ProfileView = () => import ('../views/ProfileView')
+const RadioView = () => import('../views/RadioView')
 const SearchView = () => import('../views/SearchView')
 const YunCunView = () => import('../views/YunCunView')
-const VideoView = () => import('../views/VideoView')
+
 
 const routes = [
     {
         path: '/',
         name: 'home',
-        component: HomeView
+        component: HomeView,
     },
     {
         path: '/login',
@@ -24,9 +25,9 @@ const routes = [
         component: ProfileView
     },
     {
-        path: '/yun-cun',
-        name: 'yunCun',
-        component: YunCunView
+        path: '/radio',
+        name: 'radio',
+        component: RadioView
     },
     {
         path: '/search',
@@ -34,9 +35,9 @@ const routes = [
         component: SearchView
     },
     {
-        path: '/video',
-        name: 'video',
-        component: VideoView
+        path: '/yun-cun',
+        name: 'yunCun',
+        component: YunCunView
     },
 ]
 

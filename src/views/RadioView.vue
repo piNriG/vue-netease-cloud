@@ -1,10 +1,10 @@
 <template>
-    <h2>视频</h2>
+    <h1>视频</h1>
 </template>
 
 <script>
     export default {
-        name: "VideoView"
+        name: "RadioView"
     }
 </script>
 
